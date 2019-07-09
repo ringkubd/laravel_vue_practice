@@ -6,4 +6,6 @@ return [
     "mobile"=>"Contact Number",
     "name"=>"Name",
     "address"=>"Address",
+    "update"=>"Update",
+    "edit"=>"Edit",
 ];

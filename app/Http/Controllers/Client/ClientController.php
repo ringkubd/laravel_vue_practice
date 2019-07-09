@@ -44,4 +44,9 @@ class ClientController extends Controller
         $job = ClientModel::create($request->all());
         return json_encode($job);
     }
+
+    public function update(Request $request,$id){
+        $job = ClientModel::find($id)->update($request->all());
+        return json_encode($job);
+    }
 }
